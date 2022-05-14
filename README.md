@@ -27,3 +27,9 @@ There are some examples of configuration files .rt in the map folder but you can
 #### To quit the scene you can :
 Press the ESC key or click on the red cross in the window to close the window and exit
 the program program properly.
+
+### Other examples of maps :
+
+![home](./img/home.png)
+![moon](./img/moon.png)
+![ballWall](./img/ballWall.png)
