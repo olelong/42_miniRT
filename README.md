@@ -28,8 +28,11 @@ There are some examples of configuration files .rt in the map folder but you can
 Press the ESC key or click on the red cross in the window to close the window and exit
 the program program properly.
 
+### How to create a file .rt:
+
+
 ### Other examples of maps :
 
 ![home](./img/home.png)
-![moon](./img/moon.png)
+![moon](./img/moonv2.png)
 ![ballWall](./img/ballWall.png)
