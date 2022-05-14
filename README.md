@@ -87,12 +87,12 @@ Ensuite, vous pouvez ajouter d'autres éléments, à savoir :
 ##### - Une caméra C suivie de ses coordonnées, de son vecteur d'orientation 3D [-1,1] et de son champ de vision.
 ##### - Une lumière L suivie de ses coordonnées, sa luminosité [0.0,1.0], et sa couleur [0,255].
 - Autant d'objets que vous le souhaitez :
-##### cylindres cy :
+##### Cylindres cy :
 Suivi de ses coordonnées x,y,z, de son vecteur d'orientation 3d [-1,1] pour chaque axe x,y,z, 
 son diamètre, sa hauteur et sa couleur R,G,B [0,255].
-##### sphères sp :
+##### Sphères sp :
 Suivie de ses coordonnées, de son diamètre et de sa couleur [0,255].
-##### pl plans :
+##### PLans pl :
 Suivi de ses coordonnées, de son vecteur d'orientation 3d et de sa couleur [0,255].
 
 ![example](./img/example.png)
