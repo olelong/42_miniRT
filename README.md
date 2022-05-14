@@ -17,7 +17,7 @@ lights and camera: translation and rotation.
 ### How does it works :
 
 #### To launch the program you can :
-Type the command ``` Make ```
+Type the command ``` make ```
 Launch the executable ``` ./minirt ``` followed by a .rt file like ```maps/home.rt```
 
 -> The .rt files are files that are used to configure scenes.
@@ -50,3 +50,49 @@ Followed by its coordinates, its 3d orientation vector and its color [0,255].
 ![home](./img/home.png)
 ![moon](./img/moonv2.png)
 ![ballWall](./img/ballWall.png)
+
+
+<p align="center">*************************** French ********************************</p>
+
+### L'objectif du programme est de modéliser des images selon le protocole de raytracing.
+
+Ces images doivent représenter une scène, vue d'un angle défini et contenant de simples 
+objets géométriques simples, chacun avec des objets et son propre système d'éclairage.
+
+Ce projet utilise la MinilibX, le but étant d'implémenter au moins 3 objets géométriques simples 
+objets tels que le plan, la sphère, le cylindre et d'être capable d'appliquer des transformations aux objets,
+aux lumières et à la caméra : translation et rotation.
+
+
+### Un exemple d'une scène simple avec multi-objets :
+
+![origin](./img/origin.png)
+
+#### Pour lancer le programme, vous pouvez :
+Taper la commande ```make ```.
+Lancer l'exécutable ```./minirt ``` suivi d'un fichier .rt comme ```maps/home.rt```.
+
+-> Les fichiers .rt sont des fichiers qui sont utilisés pour configurer les scènes.
+Il y a quelques exemples de fichiers de configuration .rt dans le dossier map mais vous pouvez configurer les vôtres.
+(Voir comment ci-dessous)
+
+#### Pour quitter la scène, vous pouvez :
+Appuyer sur la touche ESC ou cliquer sur la croix rouge dans la fenêtre pour fermer la fenêtre et quitter
+le programme correctement.
+
+### Comment créer un fichier .rt :
+Pour créer un fichier de configuration, vous avez besoin au moins d'une lumière ambiante A qui contient des informations 
+comme son type A, sa luminosité [0.0,1.0] et sa couleur [0,255].
+Ensuite, vous pouvez ajouter d'autres éléments, à savoir :
+##### - Une caméra C suivie de ses coordonnées, de son vecteur d'orientation 3D [-1,1] et de son champ de vision.
+##### - Une lumière L suivie de ses coordonnées, sa luminosité [0.0,1.0], et sa couleur [0,255].
+- Autant d'objets que vous le souhaitez :
+##### cylindres cy :
+Suivi de ses coordonnées x,y,z, de son vecteur d'orientation 3d [-1,1] pour chaque axe x,y,z, 
+son diamètre, sa hauteur et sa couleur R,G,B [0,255].
+##### sphères sp :
+Suivie de ses coordonnées, de son diamètre et de sa couleur [0,255].
+##### pl plans :
+Suivi de ses coordonnées, de son vecteur d'orientation 3d et de sa couleur [0,255].
+
+![example](./img/example.png)
