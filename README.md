@@ -29,7 +29,21 @@ Press the ESC key or click on the red cross in the window to close the window an
 the program program properly.
 
 ### How to create a file .rt:
+To create a config file, you need at least an ambient light A which contains information like its
+type A, its brightness [0.0,1.0] and its color [0,255].
+Then you can add other elements, that is :
+##### - A camera C followed by its coordinates, its 3D orientation vector [-1,1] and its field of view.
+##### - A light L followed by its coordinates, its luminosity [0.0,1.0], and its color [0,255].
+- As many objects as you want it to be :
+##### cylinders cy :
+Followed by its coordinates x,y,z, its orientation vector 3d [-1,1] for each axis x,y,z, 
+its diameter,its height and its Color R,G,B [0,255].
+##### spheres sp :
+Followed by its coordinates, diameter and color [0,255].
+##### pl planes :
+Followed by its coordinates, its 3d orientation vector and its color [0,255].
 
+![example](./img/example.png)
 
 ### Other examples of maps :
 
