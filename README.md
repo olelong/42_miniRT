@@ -35,12 +35,12 @@ Then you can add other elements, that is :
 ##### - A camera C followed by its coordinates, its 3D orientation vector [-1,1] and its field of view.
 ##### - A light L followed by its coordinates, its luminosity [0.0,1.0], and its color [0,255].
 - As many objects as you want it to be :
-##### cylinders cy :
+##### Cylinders cy :
 Followed by its coordinates x,y,z, its orientation vector 3d [-1,1] for each axis x,y,z, 
 its diameter,its height and its Color R,G,B [0,255].
-##### spheres sp :
+##### Spheres sp :
 Followed by its coordinates, diameter and color [0,255].
-##### pl planes :
+##### Planes pl :
 Followed by its coordinates, its 3d orientation vector and its color [0,255].
 
 ![example](./img/example.png)
