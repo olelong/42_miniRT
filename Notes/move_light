@@ -1,0 +1,18 @@
+
+
+static void update_light(t_light *light)
+{
+	static int			goes_to_the_right = 1;
+	static const int	speed = 5;
+
+	if (goes_to_the_right) {
+		light->coords.x += speed;
+		if (light->coords.x >= 20)
+			goes_to_the_right = 0;
+	}
+	else {
+		light->coords.x -= speed;
+		if (light->coords.x <= -20)
+			goes_to_the_right = 1;
+	}
+}

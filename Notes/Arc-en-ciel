@@ -1,0 +1,54 @@
+
+
+static void	update_light(t_light *light)
+{
+	static int	transition = 1; // 1 : de bleu a vert, 2 : de vert a rouge, 3 : de rouge a bleu
+	const int vitesse = 20;
+
+	switch(transition) {
+		case 1:
+			if (light->color.x <= 0 && light->color.y >= 255 && light->color.z <= 0)
+				transition = 2;
+			light->color.z -= vitesse;
+			light->color.y += vitesse;
+			light->color.x = 0;
+			break;
+		
+		case 2:
+			if (light->color.x >= 255 && light->color.y <= 0 && light->color.z <= 0)
+				transition = 3;
+			light->color.y -= vitesse;
+			light->color.x += vitesse;
+			light->color.z = 0;
+			break;
+
+		case 3:
+			if (light->color.x <= 0 && light->color.y <= 0 && light->color.z >= 255)
+				transition = 1;
+			light->color.x -= vitesse;
+			light->color.z += vitesse;
+			light->color.y = 0;
+			break;
+	}
+	if (light->color.x < 0)
+		light->color.x = 0;
+	if (light->color.y < 0)
+		light->color.y = 0;
+	if (light->color.z < 0)
+		light->color.z = 0;
+	if (light->color.x > 255)
+		light->color.x = 255;
+	if (light->color.y > 255)
+		light->color.y = 255;
+	if (light->color.z > 255)
+		light->color.z = 255;
+	printf("%f %f %f\n", light->color.x, light->color.y, light->color.z);
+}
+
+static void	create_rect(void *img, t_point color)
+{
+	int pixel_color = color.x * pow(16, 4) + color.y * pow(16, 2) + color.z;
+	for (int x = 0; x < 100; x++)
+		for (int y = 0; y < 80; y++)
+			mlx_put_pixel_img(img, x, y, pixel_color);
+}
