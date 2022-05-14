@@ -16,6 +16,14 @@ lights and camera: translation and rotation.
 
 ### How does it works :
 
+#### To launch the program you can :
+Type the command ``` Make ```
+Launch the executable ``` ./minirt ``` followed by a .rt file like ```maps/home.rt```
+
+-> The .rt files are files that are used to configure scenes.
+There are some examples of configuration files .rt in the map folder but you can configure your own.
+(See how below)
+
 #### To quit the scene you can :
-Press the ESC key or Click on the red cross in the window to close the window and exit
+Press the ESC key or click on the red cross in the window to close the window and exit
 the program program properly.
