@@ -15,7 +15,9 @@ lights and camera: translation and rotation.
 ![origin](./img/origin.png)
 
 ### How does it works :
-
+Clone the repository ``` git clone git@github.com:olelong/42_miniRT.git ```  
+Enter in the repository ``` cd 42_miniRT ``` or the name you gave when you cloned the repository  
+  
 #### To launch the program you can :
 Type the command ``` make ```
 Launch the executable ``` ./minirt ``` followed by a .rt file like ```maps/home.rt```
@@ -65,9 +67,13 @@ aux lumières et à la caméra : translation et rotation.
 
 
 ### Un exemple d'une scène simple avec multi-objets :
-
+  
 ![origin](./img/origin.png)
-
+  
+### Comment cela fonctionne :
+Clonez le repository ``` git clone git@github.com:olelong/42_miniRT.git ```  
+Entrez dans le dossier ``` cd 42_miniRT ``` ou le nom que vous avez donné lorsque vous avez cloné le repo  
+  
 #### Pour lancer le programme, vous pouvez :
 Taper la commande ```make ```.
 Lancer l'exécutable ```./minirt ``` suivi d'un fichier .rt comme ```maps/home.rt```.
