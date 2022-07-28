@@ -1,5 +1,7 @@
 # 42_miniRT
 
+<p align="left"> **************************************************** ENGLISH ******************************************************* </p>
+
 ### The objective of the program is to model images according to the raytracing protocol.
 
 These images must represent a scene, seen from a defined angle and containing simple 
@@ -54,7 +56,7 @@ Followed by its coordinates, its 3d orientation vector and its color [0,255].
 ![ballWall](./img/ballWall.png)
 
 
-<p align="center">*************************** French ********************************</p>
+<p align="left"> **************************************************** FRANÇAIS ******************************************************* </p>
 
 ### L'objectif du programme est de modéliser des images selon le protocole de raytracing.
 
