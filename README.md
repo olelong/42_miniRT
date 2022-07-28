@@ -1,5 +1,7 @@
 # 42_miniRT
 
+Project in pair with @whazami.
+
 <p align="left"> **************************************************** ENGLISH ******************************************************* </p>
 
 ### The objective of the program is to model images according to the raytracing protocol.
