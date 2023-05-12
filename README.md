@@ -1,6 +1,6 @@
 # 42_miniRT
 
-Project in pair with @whazami.
+Project in pair with @whazami[Wael Hazami](https://github.com/whazami).
 
 <p align="left"> *************************** ENGLISH *************************** </p>
 
