@@ -4,7 +4,7 @@ Project in pair with [Waël Hazami](https://github.com/whazami).
 
 <p align="left"> *************************** ENGLISH *************************** </p>
 
-## The Project:
+## The Project
 
 ### The objective of the program is to model images according to the raytracing protocol.
 
@@ -25,7 +25,7 @@ lights and camera: translation and rotation.
 * GCC compiler
 * GNU Make
 
-## How does it works :
+## How does it works
 Clone the repository ``` git clone git@github.com:olelong/42_miniRT.git ```  
 Enter in the repository ``` cd 42_miniRT ``` or the name you gave when you cloned the repository  
   
@@ -73,7 +73,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <p align="left"> *************************** FRANCAIS *************************** </p>
 
-## Le Projet:
+## Le Projet
 
 ### L'objectif du programme est de modéliser des images selon le protocole de raytracing.
 
@@ -94,7 +94,7 @@ aux lumières et à la caméra : translation et rotation.
 * Un compilateur GCC
 * Un GNU Make
   
-## Comment cela fonctionne :
+## Comment cela fonctionne
 Clonez le repository ``` git clone git@github.com:olelong/42_miniRT.git ```  
 Entrez dans le dossier ``` cd 42_miniRT ``` ou le nom que vous avez donné lorsque vous avez cloné le repo  
   
