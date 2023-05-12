@@ -33,6 +33,8 @@ Enter in the repository ``` cd 42_miniRT ``` or the name you gave when you clone
 Type the command ``` make ```
 Launch the executable ``` ./minirt ``` followed by a .rt file like ```maps/home.rt```
 
+Please note that the more complex the map is, the longer the loading time will be.
+
 -> The .rt files are files that are used to configure scenes.
 There are some examples of configuration files .rt in the map folder but you can configure your own.
 (See how below)
@@ -101,6 +103,8 @@ Entrez dans le dossier ``` cd 42_miniRT ``` ou le nom que vous avez donné lorsq
 #### Pour lancer le programme, vous pouvez :
 Taper la commande ```make ```.
 Lancer l'exécutable ```./minirt ``` suivi d'un fichier .rt comme ```maps/home.rt```.
+
+Notez que plus la carte est complexe, plus le temps de chargement est long.
 
 -> Les fichiers .rt sont des fichiers qui sont utilisés pour configurer les scènes.
 Il y a quelques exemples de fichiers de configuration .rt dans le dossier map mais vous pouvez configurer les vôtres.
