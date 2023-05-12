@@ -20,6 +20,11 @@ lights and camera: translation and rotation.
 
 ![origin](./img/origin.png)
 
+## Prerequisites
+* A Unix-based operating system (for example: Linux, macOS)
+* GCC compiler
+* GNU Make
+
 ## How does it works :
 Clone the repository ``` git clone git@github.com:olelong/42_miniRT.git ```  
 Enter in the repository ``` cd 42_miniRT ``` or the name you gave when you cloned the repository  
@@ -83,6 +88,11 @@ aux lumières et à la caméra : translation et rotation.
 ### Un exemple d'une scène simple avec multi-objets :
   
 ![origin](./img/origin.png)
+
+## Prérequis
+* Un système d'exploitation basé sur Unix (par exemple: Linux, macOS)
+* Un compilateur GCC
+* Un GNU Make
   
 ## Comment cela fonctionne :
 Clonez le repository ``` git clone git@github.com:olelong/42_miniRT.git ```  
