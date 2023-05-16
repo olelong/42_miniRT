@@ -21,7 +21,7 @@ lights and camera: translation and rotation.
 ![origin](./img/origin.png)
 
 ## Prerequisites
-* A Unix-based operating system (for example: Linux, macOS)
+* A Unix-based operating system (only Linux)
 * GCC compiler
 * GNU Make
 
@@ -92,7 +92,7 @@ aux lumières et à la caméra : translation et rotation.
 ![origin](./img/origin.png)
 
 ## Prérequis
-* Un système d'exploitation basé sur Unix (par exemple: Linux, macOS)
+* Un système d'exploitation basé sur Unix (seulement Linux, macOS)
 * Un compilateur GCC
 * Un GNU Make
   
