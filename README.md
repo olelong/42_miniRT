@@ -131,6 +131,4 @@ Suivi de ses coordonnées, de son vecteur d'orientation 3d et de sa couleur [0,2
 
 ![example](./img/example.png)
 
-## Licence
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
