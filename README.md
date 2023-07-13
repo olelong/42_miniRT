@@ -20,29 +20,6 @@ lights and camera: translation and rotation.
 
 ![origin](./img/origin.png)
 
-## Prerequisites
-* A Unix-based operating system (only Linux)
-* GCC compiler
-* GNU Make
-
-## How does it works
-Clone the repository ``` git clone git@github.com:olelong/42_miniRT.git ```  
-Enter in the repository ``` cd 42_miniRT ``` or the name you gave when you cloned the repository  
-  
-#### To launch the program you can :
-Type the command ``` make ```
-Launch the executable ``` ./minirt ``` followed by a .rt file like ```maps/home.rt```
-
-Please note that the more complex the map is, the longer the loading time will be.
-
--> The .rt files are files that are used to configure scenes.
-There are some examples of configuration files .rt in the map folder but you can configure your own.
-(See how below)
-
-#### To quit the scene you can :
-Press the ESC key or click on the red cross in the window to close the window and exit
-the program program properly.
-
 ## How to create a file .rt:
 To create a config file, you need at least an ambient light A which contains information like its
 type A, its brightness [0.0,1.0] and its color [0,255].
@@ -66,10 +43,6 @@ Followed by its coordinates, its 3d orientation vector and its color [0,255].
 ![moon](./img/moonv2.png)
 ![ballWall](./img/ballWall.png)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 </br>
 
 
@@ -91,28 +64,6 @@ aux lumières et à la caméra : translation et rotation.
   
 ![origin](./img/origin.png)
 
-## Prérequis
-* Un système d'exploitation basé sur Unix (seulement Linux, macOS)
-* Un compilateur GCC
-* Un GNU Make
-  
-## Comment cela fonctionne
-Clonez le repository ``` git clone git@github.com:olelong/42_miniRT.git ```  
-Entrez dans le dossier ``` cd 42_miniRT ``` ou le nom que vous avez donné lorsque vous avez cloné le repo  
-  
-#### Pour lancer le programme, vous pouvez :
-Taper la commande ```make ```.
-Lancer l'exécutable ```./minirt ``` suivi d'un fichier .rt comme ```maps/home.rt```.
-
-Notez que plus la carte est complexe, plus le temps de chargement est long.
-
--> Les fichiers .rt sont des fichiers qui sont utilisés pour configurer les scènes.
-Il y a quelques exemples de fichiers de configuration .rt dans le dossier map mais vous pouvez configurer les vôtres.
-(Voir comment ci-dessous)
-
-#### Pour quitter la scène, vous pouvez :
-Appuyer sur la touche ESC ou cliquer sur la croix rouge dans la fenêtre pour fermer la fenêtre et quitter
-le programme correctement.
 
 ## Comment créer un fichier .rt :
 Pour créer un fichier de configuration, vous avez besoin au moins d'une lumière ambiante A qui contient des informations 
