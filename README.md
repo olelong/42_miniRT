@@ -45,7 +45,6 @@ Followed by its coordinates, its 3d orientation vector and its color [0,255].
 
 </br>
 
-
 <p align="left"> *************************** FRANCAIS *************************** </p>
 
 ## Le Projet
