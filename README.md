@@ -92,7 +92,7 @@ aux lumières et à la caméra : translation et rotation.
 ![origin](./img/origin.png)
 
 ## Prérequis
-* Un système d'exploitation basé sur Unix (seulement Linux, macOS)
+* Un système d'exploitation basé sur Unix (seulement Linux)
 * Un compilateur GCC
 * Un GNU Make
   
