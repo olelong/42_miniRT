@@ -16,7 +16,7 @@ int	free_all(t_scene *scene)
 {
 	mlx_destroy_image(scene->mlx, scene->img);
 	mlx_destroy_window(scene->mlx, scene->win);
-	mlx_destroy_display(scene->mlx);
+	//mlx_destroy_display(scene->mlx);
 	free(scene->mlx);
 	free(scene->shapes);
 	exit(0);

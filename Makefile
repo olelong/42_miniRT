@@ -44,8 +44,8 @@ ${NAME}:	${OBJS}
 			@echo "\033[95m\nCompiling mlx...\033[0m"
 			make -C ${MLX_DIR}
 			@echo "\033[95m\nGenerating miniRT file...\033[0m"
-			${CC} ${OBJS} -Llib/libft -lft -Llib/mlx -lmlx -lXext -lX11 -lm -o $@
-			#${CC} -Llib/libft -lft -Llib/mlx -lmlx -framework OpenGL -framework Appkit -o ${NAME} ${OBJS}
+			#${CC} ${OBJS} -Llib/libft -lft -Llib/mlx -lmlx -lXext -lX11 -lm -o $@
+			${CC} -Llib/libft -lft -Llib/mlx -lmlx -framework OpenGL -framework Appkit -o ${NAME} ${OBJS}
 
 clean:		only_clean
 			$(call libft_make, clean)

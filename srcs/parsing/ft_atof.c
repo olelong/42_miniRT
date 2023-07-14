@@ -66,6 +66,7 @@ double	ft_atof(char **tmp, int i, t_free f)
 	int		decimal;
 	double	res;
 
+	res = 0.0;
 	if (is_double(tmp[i]))
 	{
 		f.tmp = ft_split(tmp[i], '.');
